@@ -9,9 +9,7 @@
 import UIKit
 
 class CreateTaskViewController: UIViewController {
-    var previousVC = TasksViewController()
-    
-    
+
     @IBOutlet weak var taskNameTextField: UITextField!
     
     
@@ -27,14 +25,12 @@ class CreateTaskViewController: UIViewController {
 
     @IBAction func addTapped(_ sender: AnyObject) {
         //Create a Task from outlet info.
-        
-        let task = Task()
+       let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let task = Task(context: context)
         task.name = taskNameTextField.text!
         task.important = importantSwitch.isOn
-        
-        //Add new task ti arry in previous view controller.
-        previousVC.tasks.append(task)
-        previousVC.tableView.reloadData()
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        //pop back
         navigationController!.popViewController(animated: true)
     }
 }

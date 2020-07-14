@@ -15,7 +15,6 @@
 		2FB8D43724B67A510009717E /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8D43524B67A510009717E /* DoIt.xcdatamodeld */; };
 		2FB8D43924B67A510009717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8D43824B67A510009717E /* Assets.xcassets */; };
 		2FB8D43C24B67A510009717E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FB8D43A24B67A510009717E /* LaunchScreen.storyboard */; };
-		2FB8D44424B67DF90009717E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB8D44324B67DF90009717E /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		2FB8D43824B67A510009717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB8D43B24B67A510009717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FB8D43D24B67A510009717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2FB8D44324B67DF90009717E /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 				2FB8D43024B67A510009717E /* TasksViewController.swift */,
 				2F9BDD7624B8C7CA0028BEC7 /* CreateTaskViewController.swift */,
 				2F8D82A724B8EE2000695EF6 /* CompleteTaskViewController.swift */,
-				2FB8D44324B67DF90009717E /* Task.swift */,
 				2FB8D43224B67A510009717E /* Main.storyboard */,
 				2FB8D43824B67A510009717E /* Assets.xcassets */,
 				2FB8D43A24B67A510009717E /* LaunchScreen.storyboard */,
@@ -148,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB8D44424B67DF90009717E /* Task.swift in Sources */,
 				2FB8D43724B67A510009717E /* DoIt.xcdatamodeld in Sources */,
 				2F8D82A824B8EE2000695EF6 /* CompleteTaskViewController.swift in Sources */,
 				2FB8D43124B67A510009717E /* TasksViewController.swift in Sources */,
